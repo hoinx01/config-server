@@ -2,19 +2,19 @@ spring:
   application:
     name: gopface
 hoinx:
-  name: nguyen xuan hoi 01
+  name: nguyen xuan hoi local
   age: 10
 server:
   port: 1
 
 ---  
 spring:
-  profiles: dev
+  profiles: hoinx01
 server:
   port: 2
   
 ---  
 spring:
-  profiles: production
+  profiles: hoinx02
 server:
   port: 3
