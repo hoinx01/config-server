@@ -1,3 +1,5 @@
-hoinx:
-  name: hoinx
-  age: 10
+spring:
+  application:
+    name: root
+  profiles:
+    active: dev,mysql
