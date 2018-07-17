@@ -12,3 +12,9 @@ spring:
   profiles: dev
 server:
   port: 2
+  
+---  
+spring:
+  profiles: production
+server:
+  port: 3
