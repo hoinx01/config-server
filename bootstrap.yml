@@ -1,3 +1,6 @@
-hoinx:
-  name: hoinx01
-  age: 11
+spring:
+  application:
+    name: app2
+
+kafka:
+  bootstrap: http://vlcc.com.vn
