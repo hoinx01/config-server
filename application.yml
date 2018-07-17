@@ -1,5 +1,14 @@
 spring:
   application:
-    name: root
-  profiles:
-    active: dev,mysql
+    name: gopface
+hoinx:
+  name: nguyen xuan hoi 01
+  age: 10
+server:
+  port: 1
+
+---  
+spring:
+  profiles: dev
+server:
+  port: 2
