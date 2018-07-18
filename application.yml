@@ -2,7 +2,7 @@ spring:
   application:
     name: gopface
     
-urls: http://*:5001
+urls: http://*:5100
 Logging:
   ConfigFile: ./Config/nlog.config
 Databases:
