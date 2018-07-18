@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: gopface
+    
+urls: http://*:5005
